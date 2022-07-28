@@ -1,0 +1,114 @@
+.Treatments {
+    width: 100%;
+    padding: 2rem 1rem;
+    background-color: #F5F5F5;
+}
+
+.Treatments-holder {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.service-card {
+    width: 18rem;
+    height: 12rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card.card1 {
+    background-image: url('../../assets/service5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.service-card.card2 {
+    background-image: url('../../assets/service4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.service-card.card3 {
+    background-image: url('../../assets/service1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.service-card.card4 {
+    background-image: url('../../assets/service3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.service-card.card5 {
+    background-image: url('../../assets/service2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.service-card:hover {
+    cursor: pointer;
+}
+
+.service-card img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.service-card-detalis.deactive {
+    display: none;
+}
+
+.card-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.card-close:hover {
+    cursor: pointer;
+}
+
+/* @media screen and (max-width: 1150px) {
+    .service-card {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .service-card {
+        width: 7rem;
+        height: 7rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio-card-detalis {
+        padding: 2rem;
+    }
+} */
+
+@media screen and (max-width: 450px) {
+
+    .service-card {
+        width: 100%;
+    }
+}
+
+/* @media screen and (max-width: 380px) {
+    .Treatments-holder {
+        gap: 0.2rem;
+    }
+
+    .service-card {
+        width: 4.2rem;
+        height: 4.2rem;
+    } 
+} */

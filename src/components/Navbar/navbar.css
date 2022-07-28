@@ -1,0 +1,117 @@
+.Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.2rem 0.7rem;
+    background-color: var(--light-purple);
+}
+
+.navbar-logo {
+    width: 20%;
+}
+
+.hamburger{
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+.hamburger-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.line {
+    width: 3rem;
+    height: 0.3rem;
+    border-radius: 20px;
+    background-color: var(--grey);
+    transition: all 0.3s ease;
+}
+
+.hamburger.active {
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+    z-index: 110;
+}
+
+.hamburger.active .line1 {
+    transform: rotate(-760deg) translateY(5px);
+}
+
+.hamburger.active .line2 {
+    display: none;
+}
+
+.hamburger.active .line3 {
+    transform: rotate(760deg) translateY(-6px);
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-purple);
+    display: none;
+    z-index: 100;
+}
+
+.menu.active{
+    display: flex;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.menu-item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem;
+    color: var(--light-purple);
+    fill: var(--light-purple);
+}
+
+.menu-item:hover {
+    cursor: pointer;
+}
+
+.menu-item-text {
+    color: var(--light-purple);
+}
+
+.menu-item-text-active {
+    color: #fff;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: var(--light-purple);
+}
+
+.menu-item a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+    .menu {
+        width: 100%;
+    }
+}

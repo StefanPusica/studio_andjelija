@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
+.modal-whats-app {
+  position: fixed;
+  bottom: 2rem;
+  right: 5rem;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  width: 4rem;
+  height: 4rem;
+  background-color: #25D366;
+  border-radius: 50%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 0;  
 }
 
-.App-link {
-  color: #61dafb;
+.modal-whats-app:hover {
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.modal-whats-app-icons {
+  font-size: 2.3rem;
+  color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  
+  .modal-whats-app {
+      width: 4rem;
+      height: 4rem;
+      bottom: 2rem;
+      right: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .modal-whats-app-icons {
+      font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  
+  .modal-whats-app {
+      width: 4rem;
+      height: 4rem;
+      bottom: 2rem;
+      right: 2rem;
+  }
+
+  .modal-whats-app-icons {
+      font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  
+  .modal-whats-app {
+      width: 3rem;
+      height: 3rem;
+      bottom: 2rem;
+      right: 2rem;
+  }
+
+  .modal-whats-app-icons {
+      font-size: 1.8rem;
   }
 }

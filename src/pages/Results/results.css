@@ -1,0 +1,153 @@
+.Results {
+    width: 100%;
+    padding: 2rem 1rem;
+    background-color: #F5F5F5;
+}
+
+.Results-holder {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.results-heading {
+    color: var(--dark-purple);
+    margin-bottom: 1.5rem;
+}
+
+.results-card {
+    width: 20rem;
+    height: 25rem;
+    /* background-image: url('../../assets/massage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.res1 {
+    background-image: url('../../assets/beforeAfter1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.res2 {
+    background-image: url('../../assets/beforeAfter2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.res3 {
+    background-image: url('../../assets/beforeAfter3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.res4 {
+    background-image: url('../../assets/beforeAfter4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.res5 {
+    background-image: url('../../assets/beforeAfter5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.res6 {
+    background-image: url('../../assets/beforeAfter6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.res7 {
+    background-image: url('../../assets/beforeAfter7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.res8 {
+    background-image: url('../../assets/beforeAfter8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.res9 {
+    background-image: url('../../assets/beforeAfter9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25rem;
+}
+
+.res10 {
+    background-image: url('../../assets/beforeAfter10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25rem;
+}
+
+.res11 {
+    background-image: url('../../assets/beforeAfter11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25rem;
+}
+
+.res12 {
+    background-image: url('../../assets/beforeAfter12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25rem;
+}
+
+.res13 {
+    background-image: url('../../assets/beforeAfter13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25rem;
+}
+
+.results-line {
+    height: 107rem;
+    width: 0.2rem;
+    background-color: var(--dark-purple);
+    border-radius: 60%;
+}
+
+.Results-holder-part2 {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+    .results-card {
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .results-card {
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .results-line {
+        height: 36rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .results-card {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .results-line {
+        height: 35rem;
+    }
+}
